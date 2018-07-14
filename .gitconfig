@@ -1,0 +1,7 @@
+[user]
+	email = gena.kukartsev@renaissance.com
+	name = Gena Kukartsev
+[core]
+	autocrlf = input
+[alias]
+	lg = log --oneline --decorate --graph --all
