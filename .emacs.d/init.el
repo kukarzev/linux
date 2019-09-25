@@ -33,3 +33,6 @@ There are two things you can do about this warning:
  )
 (load-theme 'monokai t)
 (desktop-save-mode 1)
+;; transparency
+(set-frame-parameter (selected-frame) 'alpha '(95 . 50))
+(add-to-list 'default-frame-alist '(alpha . (95 . 50)))
