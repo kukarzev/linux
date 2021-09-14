@@ -5,3 +5,5 @@
 	autocrlf = input
 [alias]
 	lg = log --oneline --decorate --graph --all
+[url "ssh://git@github.com/"]
+        insteadOf = https://github.com/
